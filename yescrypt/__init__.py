@@ -6,7 +6,7 @@ from ._compat import constant_time_equal, text_type, to_bytes
 from ._core import yescrypt_rw
 from ._encoding import encode_bytes, format_setting, parse_setting
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __author__ = 'github.com/arlsr'
 __all__ = ['hash_password', 'verify']
 
